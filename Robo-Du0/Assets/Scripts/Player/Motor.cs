@@ -6,6 +6,7 @@ public class Motor : MonoBehaviour
 {
     public float speed;
     public float rotatespeed;
+    public Animator animator;
 
     public GameObject turret;
 
@@ -13,18 +14,29 @@ public class Motor : MonoBehaviour
 
     void FixedUpdate()
     {
-        float moveVector = Input.GetAxis("Horizontal");
-        float rotateVector = Input.GetAxis("Vertical");
+        float hVector = Input.GetAxis("Horizontal");
+        float vVector = Input.GetAxis("Vertical");
 
-        this.transform.Translate(moveVector * speed * Time.deltaTime, 0f, 0f);
-        this.transform.Translate(0f, rotateVector * speed * Time.deltaTime, 0f);
+        this.transform.Translate(hVector * speed * Time.deltaTime, 0f, 0f);
+        this.transform.Translate(0f, vVector * speed * Time.deltaTime, 0f);
 
 
     }
     void Update()
     {
         TurretRotation();
-
+        if (Input.GetButton("down") == true)
+        {
+            animator.SetBool("IsMovingSouth", true);
+        }
+        if (Input.GetButton("up") == true)
+        {
+            animator.SetBool("IsMovingNorth", true);
+        }
+        if (Input.GetButton("left") == true)
+        {
+            animator.SetBool("IsMovingEast", true);
+        }
 
 
 

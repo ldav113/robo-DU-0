@@ -6,6 +6,7 @@ public class Enemy : MonoBehaviour
 {
     public float speed;
     public Transform playerPos;
+    public Animator animator;
     private  Player player;
     private Shooting shot;
     //public int health = 10;
