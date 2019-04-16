@@ -64,22 +64,6 @@ public class DamageHandler : MonoBehaviour {
 			Die();
 		}
 
-        /*
-
-        Try here player health issue
-
-
-
-
-
-        */
-
-
-
-
-
-
-
 	}
 
 	void Die() {

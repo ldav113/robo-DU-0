@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{6CB94C02-DE00-E5B5-A440-FA778A33747D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player/Motor.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraFollow.cs">
     <Files>
       <File FileName="Assets/Scripts/CameraFollow.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Player/Player.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Player/PlayerHealth.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/DamageHandler.cs" Line="70" Column="9" />
-      <File FileName="Assets/Scripts/Player/Motor.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player/PlayerHealth.cs" Line="70" Column="17" />
+      <File FileName="Assets/Scripts/DamageHandler.cs" Line="45" Column="17" />
+      <File FileName="Assets/Scripts/Player/Motor.cs" Line="28" Column="12" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
