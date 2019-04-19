@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
     public Transform playerPos;
     public Animator animator;
     private  Player player;
+    //private Transform healthBar;
     private Shooting shot;
     //public int health = 10;
 
@@ -17,6 +18,7 @@ public class Enemy : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         playerPos = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+      //  healthBar = GameObject.FindGameObjectWithTag("HealthBar").GetComponent<Transform>();
     }
 
 
