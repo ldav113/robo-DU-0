@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\Player\gunRotate.cs" />
     <Compile Include="Assets\Scripts\Player\Motor.cs" />
     <Compile Include="Assets\Scripts\Player\Player.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerShooting.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerSpawner.cs" />
     <Compile Include="Assets\Scripts\Player\Shooting.cs" />

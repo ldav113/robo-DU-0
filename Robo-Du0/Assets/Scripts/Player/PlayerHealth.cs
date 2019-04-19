@@ -129,7 +129,7 @@ public class PlayerHealth : MonoBehaviour
 
     void Die()
     {
-        Destroy(gameObject.CompareTag("Player");
+        Destroy(gameObject);
     }
 
 
