@@ -629,6 +629,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: HealthBar
       objectReference: {fileID: 0}
+    - target: {fileID: 1743148064736762031, guid: d81e7f1790b4b4ff48110e540d3e4c7f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d81e7f1790b4b4ff48110e540d3e4c7f, type: 3}
 --- !u!1 &1885921653
