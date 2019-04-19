@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -58,15 +59,8 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-
-
-
-
-
     private void Update()
     {
-
-       
         // from DamageHandler
         if(invulnTimer > 0) {
             invulnTimer -= Time.deltaTime;
@@ -86,14 +80,8 @@ public class PlayerHealth : MonoBehaviour
 
         if(health <= 0) {
             Die();
+            SceneManager.LoadScene("GameOver");
         }
-
-
-
-
-
-      
-
 
         if (health> numOfHearts)
         {
@@ -126,13 +114,9 @@ public class PlayerHealth : MonoBehaviour
     }
 
     // From DamageHandler
-
     void Die()
     {
         Destroy(gameObject);
     }
-
-
-
 
 }

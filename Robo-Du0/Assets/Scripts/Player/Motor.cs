@@ -32,7 +32,7 @@ public class Motor : MonoBehaviour
         TurretRotation();
 
         // State changes from walking south-west to standing south-west
-        if ((Input.GetKey(KeyCode.S) && Input.GetKey(KeyCode.A)) || (Input.GetKey(KeyCode.DownArrow) && Input.GetKey(KeyCode.LeftArrow)))
+        if ((Input.GetKeyDown(KeyCode.S) && Input.GetKeyDown(KeyCode.A)) || (Input.GetKeyDown(KeyCode.DownArrow) && Input.GetKeyDown(KeyCode.LeftArrow)))
         {
             anim.SetBool("IsMovingSouthWest", true);
         }
@@ -42,7 +42,7 @@ public class Motor : MonoBehaviour
         }
 
         // State changes from walking south-east to standing south-east
-        else if ((Input.GetKey(KeyCode.S) && Input.GetKey(KeyCode.D)) || (Input.GetKey(KeyCode.DownArrow) && Input.GetKey(KeyCode.RightArrow)))
+        else if ((Input.GetKeyDown(KeyCode.S) && Input.GetKeyDown(KeyCode.D)) || (Input.GetKeyDown(KeyCode.DownArrow) && Input.GetKeyDown(KeyCode.RightArrow)))
         {
             anim.SetBool("IsMovingSouthEast", true);
         }
@@ -52,7 +52,7 @@ public class Motor : MonoBehaviour
         }
 
         // State changes from walking north-east to standing north-east
-        else if ((Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.D)) || (Input.GetKey(KeyCode.UpArrow) && Input.GetKey(KeyCode.RightArrow)))
+        else if ((Input.GetKeyDown(KeyCode.W) && Input.GetKeyDown(KeyCode.D)) || (Input.GetKeyDown(KeyCode.UpArrow) && Input.GetKeyDown(KeyCode.RightArrow)))
         {
             anim.SetBool("IsMovingNorthEast", true);
         }
@@ -62,7 +62,7 @@ public class Motor : MonoBehaviour
         }
 
         // State changes from walking north-west to standing north-west
-        else if ((Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.W)) || (Input.GetKey(KeyCode.UpArrow) && Input.GetKey(KeyCode.LeftArrow)))
+        else if ((Input.GetKeyDown(KeyCode.A) && Input.GetKeyDown(KeyCode.W)) || (Input.GetKeyDown(KeyCode.UpArrow) && Input.GetKeyDown(KeyCode.LeftArrow)))
         {
             anim.SetBool("IsMovingNorthWest", true);
         }
