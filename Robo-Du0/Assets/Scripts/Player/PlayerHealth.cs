@@ -89,7 +89,7 @@ public class PlayerHealth : MonoBehaviour
         }
 
 
-
+        // to here
 
 
       
@@ -129,7 +129,7 @@ public class PlayerHealth : MonoBehaviour
 
     void Die()
     {
-        Destroy(gameObject);
+        Destroy(gameObject.CompareTag("Player");
     }
 
 
