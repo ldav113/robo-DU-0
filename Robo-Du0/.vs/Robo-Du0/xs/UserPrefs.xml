@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{6CB94C02-DE00-E5B5-A440-FA778A33747D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player/PlayerHealth.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy/Enemy.cs">
     <Files>
       <File FileName="Assets/Scripts/DamageHandler.cs" Line="11" Column="19" />
-      <File FileName="Assets/Scripts/Player/PlayerHealth.cs" Line="34" Column="6" />
+      <File FileName="Assets/Scripts/Player/PlayerHealth.cs" Line="102" Column="44" />
       <File FileName="Assets/Scripts/Win.cs" Line="18" Column="31" />
+      <File FileName="Assets/Scripts/Enemy/Enemy.cs" Line="29" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
