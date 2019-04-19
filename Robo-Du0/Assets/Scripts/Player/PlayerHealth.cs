@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
@@ -12,7 +13,7 @@ public class PlayerHealth : MonoBehaviour
     public Image[] hearts;
     public Sprite fullHealth;
     public Sprite emptyHealth;
-
+    public string SceneName;
 
 
     // From DamageHandler
@@ -24,6 +25,15 @@ public class PlayerHealth : MonoBehaviour
     int correctLayer;
 
     SpriteRenderer spriteRend;
+
+
+    public void Menu() // This MUST be inserted otherwise the script doesn't work, also the name of the scene to be loaded has to be where it says NewLebel (delete NewLebel and replace it with  your scene name
+    {
+        Debug.Log("GameOver");
+        SceneManager.LoadScene("GameOver");
+    }
+
+
 
     void Start()
     {
@@ -56,6 +66,9 @@ public class PlayerHealth : MonoBehaviour
                 gameObject.layer = 10;
             }
         }
+
+
+
     }
 
 
@@ -86,6 +99,7 @@ public class PlayerHealth : MonoBehaviour
 
         if(health <= 0) {
             Die();
+            Menu(); // Upload Gameover page
         }
 
 
@@ -130,6 +144,7 @@ public class PlayerHealth : MonoBehaviour
     void Die()
     {
         Destroy(gameObject);
+       
     }
 
 
