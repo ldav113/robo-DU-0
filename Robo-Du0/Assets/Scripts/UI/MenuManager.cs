@@ -7,7 +7,17 @@ public class MenuManager : MonoBehaviour
 {
     public void ToGame()
     {
-        SceneManager.LoadScene("LevelTest");
+        SceneManager.LoadScene("Level1");
+    }
+
+    public void ToTutorial()
+    {
+        SceneManager.LoadScene("Level0Test");
+    }
+
+    public void ToMenu()
+    {
+        SceneManager.LoadScene("Menu");
     }
 
     public void QuitGame()
