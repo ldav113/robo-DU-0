@@ -1,0 +1,8 @@
+sceneSetups:
+<<<<<<< HEAD
+- path: Assets/Scenes/Level0Test.unity
+=======
+- path: Assets/Scenes/Level2Boss.unity
+>>>>>>> be707c0152a771c1705aafbee007c92564746250
+  isLoaded: 1
+  isActive: 1
