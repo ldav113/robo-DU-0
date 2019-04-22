@@ -30,8 +30,9 @@ public class Motor : MonoBehaviour
     void Update()
     {
 
-       
+
         TurretRotation();
+       
 
         // State changes from walking south-west to standing south-west
         if ((Input.GetKeyDown(KeyCode.S) && Input.GetKeyDown(KeyCode.A)) || (Input.GetKeyDown(KeyCode.DownArrow) && Input.GetKeyDown(KeyCode.LeftArrow)))
@@ -127,14 +128,26 @@ public class Motor : MonoBehaviour
     }
 
     void TurretRotation()
-    { 
+    {
 
-      // Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector3 mousePos = Input.mousePosition;
+        mousePos.z = 5.23f;
 
-        Vector3 direction = new Vector3(Input.mousePosition.x - turret.transform.position.x, Input.mousePosition.y - turret.transform.position.y);
+        Vector3 objectPos = Camera.main.WorldToScreenPoint(turret.transform.position);
+        mousePos.x = mousePos.x - objectPos.x;
+        mousePos.y = mousePos.y - objectPos.y;
+
+        float angle = Mathf.Atan2(mousePos.y, mousePos.x) * Mathf.Rad2Deg;
+        turret.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 90));
+        
+        
+        
+        // Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+        //Vector3 direction = new Vector3(Input.mousePosition.x - turret.transform.position.x, Input.mousePosition.y - turret.transform.position.y);
 
        // direction.Normalize();
-        turret.transform.up = direction;
+        //turret.transform.up = direction;
 
     }
 
