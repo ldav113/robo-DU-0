@@ -29,6 +29,8 @@ public class Motor : MonoBehaviour
     // update is called once per frame
     void Update()
     {
+
+       
         TurretRotation();
 
         // State changes from walking south-west to standing south-west
@@ -125,12 +127,15 @@ public class Motor : MonoBehaviour
     }
 
     void TurretRotation()
-    {
-        //Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+    { 
+
+      // Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
         Vector3 direction = new Vector3(Input.mousePosition.x - turret.transform.position.x, Input.mousePosition.y - turret.transform.position.y);
-        direction.Normalize();
+
+       // direction.Normalize();
         turret.transform.up = direction;
+
     }
 
 }
