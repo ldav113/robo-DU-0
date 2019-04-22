@@ -129,7 +129,7 @@ public class Motor : MonoBehaviour
         //Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
         Vector3 direction = new Vector3(Input.mousePosition.x - turret.transform.position.x, Input.mousePosition.y - turret.transform.position.y);
-
+        direction.Normalize();
         turret.transform.up = direction;
     }
 
