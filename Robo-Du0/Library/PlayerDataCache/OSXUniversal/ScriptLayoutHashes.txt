@@ -1,6 +1,6 @@
 OSXUniversal
 PlayerPath?
-/Users/MIn/Documents/GitHub/robo-DU-0/Robo-Du0/test1.app
+/Users/f3tth/Documents/GitHub/Liaisons_VGD/Robo-Du0/robo-DU-0/Builds/Final_Demo.app
 SceneListBegin?
 Assets/Scenes/Menu.unity
 Assets/Scenes/Level0Test.unity
