@@ -50,3 +50,6 @@ TagManager:
   - name: Enemy
     uniqueID: 292632751
     locked: 0
+  - name: Floor
+    uniqueID: 4026403709
+    locked: 0
