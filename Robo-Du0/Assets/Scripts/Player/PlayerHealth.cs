@@ -30,7 +30,9 @@ public class PlayerHealth : MonoBehaviour
     public void Menu() // This MUST be inserted otherwise the script doesn't work, also the name of the scene to be loaded has to be where it says NewLebel (delete NewLebel and replace it with  your scene name
     {
         Debug.Log("GameOver");
-        SceneManager.LoadScene("GameOver");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);  //reloads current level after dieing
+
+        //SceneManager.LoadScene("GameOver");
     }
 
 
