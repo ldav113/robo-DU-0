@@ -64,14 +64,16 @@ public class BossDamageHandler : MonoBehaviour {
 		}
 
 		if(health <= 0) {
-			Die();
+            
+            Die();
 		}
 
 	}
 
 	void Die() {
-		Destroy(gameObject);
+
         SceneManager.LoadScene(SceneName);
+        Destroy(gameObject);
     }
 
 }
