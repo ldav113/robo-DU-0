@@ -33,7 +33,10 @@ MonoBehaviour:
   m_MaxSize: {x: 18008, y: 12072}
   vertical: 0
   controlID: 1823
+<<<<<<< HEAD
 >>>>>>> 401da8da2c6831d673047d4a4d13f0a4fd689f2b
+=======
+>>>>>>> parent of bc31911... Fixed loading level 2
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -57,6 +60,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 573
     width: 1161
     height: 241
@@ -65,6 +69,11 @@ MonoBehaviour:
     width: 1454
     height: 283
 >>>>>>> 401da8da2c6831d673047d4a4d13f0a4fd689f2b
+=======
+    y: 717
+    width: 1454
+    height: 283
+>>>>>>> parent of bc31911... Fixed loading level 2
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
@@ -86,7 +95,10 @@ MonoBehaviour:
     m_HBaseRangeMax: 727
     m_VBaseRangeMin: -133
     m_VBaseRangeMax: 133
+<<<<<<< HEAD
 >>>>>>> 401da8da2c6831d673047d4a4d13f0a4fd689f2b
+=======
+>>>>>>> parent of bc31911... Fixed loading level 2
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -114,7 +126,10 @@ MonoBehaviour:
       height: 266
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 727, y: 133}
+<<<<<<< HEAD
 >>>>>>> 401da8da2c6831d673047d4a4d13f0a4fd689f2b
+=======
+>>>>>>> parent of bc31911... Fixed loading level 2
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -131,16 +146,23 @@ MonoBehaviour:
       y: -133
       width: 1454
       height: 266
+<<<<<<< HEAD
 >>>>>>> 401da8da2c6831d673047d4a4d13f0a4fd689f2b
+=======
+>>>>>>> parent of bc31911... Fixed loading level 2
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LastWindowPixelSize: {x: 2322, y: 482}
 =======
   m_LastWindowPixelSize: {x: 1454, y: 283}
 >>>>>>> 401da8da2c6831d673047d4a4d13f0a4fd689f2b
+=======
+  m_LastWindowPixelSize: {x: 1454, y: 283}
+>>>>>>> parent of bc31911... Fixed loading level 2
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000100000100
@@ -178,7 +200,10 @@ MonoBehaviour:
   m_MaxSize: {x: 8006, y: 12072}
   vertical: 1
   controlID: 1824
+<<<<<<< HEAD
 >>>>>>> 401da8da2c6831d673047d4a4d13f0a4fd689f2b
+=======
+>>>>>>> parent of bc31911... Fixed loading level 2
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -212,7 +237,10 @@ MonoBehaviour:
   m_MaxSize: {x: 8006, y: 8048}
   vertical: 0
   controlID: 1825
+<<<<<<< HEAD
 >>>>>>> 401da8da2c6831d673047d4a4d13f0a4fd689f2b
+=======
+>>>>>>> parent of bc31911... Fixed loading level 2
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -232,10 +260,14 @@ MonoBehaviour:
     y: 0
     width: 929
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 498
 =======
     height: 644
 >>>>>>> 401da8da2c6831d673047d4a4d13f0a4fd689f2b
+=======
+    height: 644
+>>>>>>> parent of bc31911... Fixed loading level 2
   m_MinSize: {x: 202, y: 224}
   m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 6}
@@ -273,7 +305,10 @@ MonoBehaviour:
     y: 73
     width: 927
     height: 624
+<<<<<<< HEAD
 >>>>>>> 401da8da2c6831d673047d4a4d13f0a4fd689f2b
+=======
+>>>>>>> parent of bc31911... Fixed loading level 2
   m_PersistentViewDataDictionary: {fileID: 0}
   m_WindowGUID: b1f71801749bd48d79bbbf5cdc36469c
   m_SceneLighting: 1
@@ -281,6 +316,7 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_Target: {x: 1.7846334, y: 24.474167, z: -0.029928762}
     speed: 2
@@ -290,6 +326,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -8.311724, y: -15.015656, z: 14.184169}
 >>>>>>> 401da8da2c6831d673047d4a4d13f0a4fd689f2b
+=======
+    m_Target: {x: -8.311724, y: -15.015656, z: 14.184169}
+    speed: 2
+    m_Value: {x: -8.311724, y: -15.015656, z: 14.184169}
+>>>>>>> parent of bc31911... Fixed loading level 2
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -322,6 +363,7 @@ MonoBehaviour:
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 117.618706
     speed: 2
     m_Value: 117.618706
@@ -330,6 +372,11 @@ MonoBehaviour:
     speed: 2
     m_Value: 90.642
 >>>>>>> 401da8da2c6831d673047d4a4d13f0a4fd689f2b
+=======
+    m_Target: 90.642
+    speed: 2
+    m_Value: 90.642
+>>>>>>> parent of bc31911... Fixed loading level 2
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -400,7 +447,10 @@ MonoBehaviour:
   m_MaxSize: {x: 4004, y: 8048}
   vertical: 1
   controlID: 1786
+<<<<<<< HEAD
 >>>>>>> 401da8da2c6831d673047d4a4d13f0a4fd689f2b
+=======
+>>>>>>> parent of bc31911... Fixed loading level 2
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -424,7 +474,10 @@ MonoBehaviour:
 =======
     width: 527
     height: 334
+<<<<<<< HEAD
 >>>>>>> 401da8da2c6831d673047d4a4d13f0a4fd689f2b
+=======
+>>>>>>> parent of bc31911... Fixed loading level 2
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 10}
@@ -462,7 +515,10 @@ MonoBehaviour:
     y: 73
     width: 523
     height: 314
+<<<<<<< HEAD
 >>>>>>> 401da8da2c6831d673047d4a4d13f0a4fd689f2b
+=======
+>>>>>>> parent of bc31911... Fixed loading level 2
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
@@ -475,7 +531,10 @@ MonoBehaviour:
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: a6e5ffffc6f7ffffd6fbffff
+<<<<<<< HEAD
 >>>>>>> 401da8da2c6831d673047d4a4d13f0a4fd689f2b
+=======
+>>>>>>> parent of bc31911... Fixed loading level 2
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -516,12 +575,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 224
     width: 234
     height: 274
   m_MinSize: {x: 234, y: 274}
   m_MaxSize: {x: 10004, y: 10024}
 =======
+=======
+>>>>>>> parent of bc31911... Fixed loading level 2
     y: 334
     width: 527
     height: 310
@@ -668,7 +730,11 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets/Prefabs
+=======
+    - Assets/Scenes
+>>>>>>> parent of bc31911... Fixed loading level 2
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
@@ -681,10 +747,14 @@ MonoBehaviour:
     m_SelectedIDs: 38310000
     m_LastClickedID: 12600
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: ffffffff00000000ae2f0000803d0000f43d0000443e0000623e0000923e0000c43e00001c3f00008e3f0000903f0000da3f00002240000086400000
 =======
     m_ExpandedIDs: ffffffff000000005e2600006e260000bc260000e826000022270000aa270000dc2700002428000072280000b228000014290000c8290000ca290000422a0000b62a00003c2b0000
 >>>>>>> 401da8da2c6831d673047d4a4d13f0a4fd689f2b
+=======
+    m_ExpandedIDs: ffffffff000000005e2600006e260000bc260000e826000022270000aa270000dc2700002428000072280000b228000014290000c8290000ca290000422a0000b62a00003c2b0000
+>>>>>>> parent of bc31911... Fixed loading level 2
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -719,7 +789,10 @@ MonoBehaviour:
     m_SelectedIDs: 0e4e0000
     m_LastClickedID: 0
     m_ExpandedIDs: ffffffff000000005e2600006e260000bc260000e826000022270000aa270000dc2700002428000072280000b228000014290000c8290000ca290000422a0000b62a00003c2b0000
+<<<<<<< HEAD
 >>>>>>> 401da8da2c6831d673047d4a4d13f0a4fd689f2b
+=======
+>>>>>>> parent of bc31911... Fixed loading level 2
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -745,12 +818,17 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 12930000
     m_LastClickedInstanceID: 37650
 =======
     m_SelectedInstanceIDs: 0e4e0000
     m_LastClickedInstanceID: 19982
 >>>>>>> 401da8da2c6831d673047d4a4d13f0a4fd689f2b
+=======
+    m_SelectedInstanceIDs: 0e4e0000
+    m_LastClickedInstanceID: 19982
+>>>>>>> parent of bc31911... Fixed loading level 2
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
