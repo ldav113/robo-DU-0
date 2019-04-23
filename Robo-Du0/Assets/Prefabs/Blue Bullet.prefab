@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6429855460886750590}
   - component: {fileID: 7190328853840386689}
   - component: {fileID: 1411547788427946488}
+  - component: {fileID: 8939737908123147158}
   m_Layer: 9
   m_Name: Blue Bullet
   m_TagString: Untagged
@@ -193,6 +194,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8939737908123147158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932589734905111159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb7ed63e108d21847b71f45bbfef8221, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  receiveDamage: 1
+  invulnPeriod: 0
 --- !u!1 &4631912822803066791
 GameObject:
   m_ObjectHideFlags: 0
