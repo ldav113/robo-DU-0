@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":1.7846333980560303,"y":24.474166870117189,"z":-0.02992876246571541},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":117.61870574951172,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":-8.311723709106446,"y":-15.015656471252442,"z":14.184168815612793},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":90.64199829101563,"orthographic":true}
+>>>>>>> parent of bc31911... Fixed loading level 2
